@@ -1,0 +1,135 @@
+/*Copyright Jack Landry and Lexa Grasz 2015*/
+
+
+body { 
+    border: 0.3em solid darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+html{
+    padding: 1em;  
+}
+
+.error{
+    margin: 2em;
+}
+
+
+h1 {
+    color: darkblue;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+ label {
+    display: inline-block;
+    float: left; 
+    margin-bottom: 0.2em;
+    margin-top: 0.5em;
+    padding-bottom: 0.2em;
+    padding-right: 2em;
+    text-align: right;
+    width: 11em;
+}
+input {
+    margin-top: 0.6em;
+    width: 13em;
+}
+
+
+br {
+    clear: both;
+}
+.display {
+    margin-top: 0;
+}
+
+.footer{
+    border-top: 0.3em solid darkblue;
+    margin-bottom: 0;
+    padding: 1.5em;  
+}
+
+th, td {
+    padding-right: 6em;
+}
+
+table {
+    padding-left: 3em;
+}
+
+@media screen and (max-width: 590px) {
+    h1{
+        font-size: 1.3em;
+    }
+    
+    label{
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 516px) {
+    h1{
+        font-size: 1em;
+    }
+    label {
+      float: left;   
+      font-size: 0.8em;
+      display: inline-block;
+      margin-bottom: 0.2em;
+      margin-left: 2em;
+      margin-top: 0.5em;
+      padding-bottom: 0.1em;
+      padding-right: 1em;
+      text-align: left; 
+      width: 10em;
+}
+    input {
+      margin-left: 2em;
+      margin-top: 0.6em;
+      width: 13em;
+        
+}
+.footer{
+    font-size: 0.9em;
+}
+.spacer {
+        display: none;
+    }
+    
+    .returner {
+        padding-left: 2em;
+    }
+    
+}
+    
+    
+@media screen and (max-width: 400px) {
+    body{
+        text-align: left;
+    }
+    label{
+        float: left;
+        margin-left: 0.2em; 
+        text-align: left;
+    }
+    input{
+        float: left;
+        text-align: left;
+        
+        margin-left: 0.2em; 
+    }
+    
+    .footer{
+        font-size: 0.7em;
+    }
+    .spacer {
+        display: none;
+    }
+    form {
+        padding-bottom: 1.4em;
+        padding-left: 1em;
+    }
+}
