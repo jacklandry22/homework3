@@ -60,8 +60,7 @@ public class User implements Serializable {
    /**
     * Method that returns the investment amount properly formatted with a
     * dollar sign, commas, and decimals
-    * @return 
-    *       the properly formatted investment
+    * @return the properly formatted investment
     */
     
     public String getInvestmentCurrencyFormat() {
@@ -71,7 +70,8 @@ public class User implements Serializable {
     }
 
     /**
-     * @param investment sets the investment value
+     * @param investment 
+     *              sets the investment value
      */
     public void setInvestment(double investment) {
         this.investment = investment;
@@ -85,7 +85,8 @@ public class User implements Serializable {
     }
 
     /**
-     * @param interest sets the interest value
+     * @param interest 
+     *          sets the interest value
      */
     public void setInterest(double interest) {
         this.interest = interest;
@@ -99,7 +100,8 @@ public class User implements Serializable {
     }
 
     /**
-     * @param years sets the number of years 
+     * @param years 
+     *          sets the number of years 
      */
     public void setYears(int years) {
         this.years = years;
@@ -113,7 +115,8 @@ public class User implements Serializable {
     }
 
     /**
-     * @param futureValue sets the future monetary value which is the 
+     * @param futureValue 
+     *              sets the future monetary value which is the 
      * investment + the compounded interest
      * 
      */

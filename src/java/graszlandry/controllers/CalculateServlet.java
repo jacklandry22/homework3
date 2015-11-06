@@ -5,25 +5,22 @@ package graszlandry.controllers;
 import graszlandry.business.Calculator;
 import java.io.IOException;
 import javax.servlet.http.HttpSession;
-import java.lang.String;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import graszlandry.business.User;
-import static java.lang.Double.parseDouble;
 import java.util.ArrayList;
 import javax.servlet.ServletContext;
 import javax.servlet.annotation.WebServlet;
 
 /**
+ * * @author Lexa Grasz and Jack Landry
  * Controls interaction with three jsp pages. Mapped to the /calculate URL. 
  * Two methods, doGet and doPost, are written. 
  * The doGet method calls the doPost method.
  *
- * @author lexagrasz and Jack Landry
  */
 @WebServlet("/calculate")
 public class CalculateServlet extends HttpServlet {
@@ -53,7 +50,6 @@ public class CalculateServlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      * 
-     * This method assigns 
      */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

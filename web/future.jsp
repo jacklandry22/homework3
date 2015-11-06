@@ -41,7 +41,7 @@
  
 
         
-        <a class="returner" href="<c:url value='/calculate' />">Return to Calculator</a>
+<div> <a class="returner" href="<c:url value='/calculate' />">Return to Calculator</a> </div>
   
 
 <%@ include file="/includes/footer.jsp" %>
